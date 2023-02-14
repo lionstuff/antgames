@@ -1,0 +1,24 @@
+{
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/lionstuff/antgames/issues"
+  },
+  "description": "Ant Games",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-plugin-security": "^1.7.1"
+  },
+  "homepage": "https://github.com/lionstuff/antgames#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "antgames",
+  "repository": {
+    "url": "git+https://github.com/lionstuff/antgames.git",
+    "type": "git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
