@@ -5,7 +5,7 @@
   },
   "description": "Ant Games",
   "devDependencies": {
-    "eslint": "^8.33.0",
+    "eslint": "^8.34.0",
     "eslint-plugin-security": "^1.7.1"
   },
   "homepage": "https://github.com/lionstuff/antgames#readme",
