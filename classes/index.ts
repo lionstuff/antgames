@@ -189,7 +189,7 @@ export class MapLocation /* extends OffscreenCanvas  */ implements ILocationOpti
 };
 
 // export class World /* extends Array<MapLocation[]> */ {
-export class World {
+class World {
   /**
    * @protected
    * @returns {MapLocation}
@@ -647,3 +647,5 @@ export class Unit implements UnitOptions {
     this.timerId = null;
   };
 };
+
+export { World };

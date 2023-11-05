@@ -1,34 +1,39 @@
 {
-  "include": [
-    "./**/*"
-  ],
   "compilerOptions": {
-    "module": "esnext",
     "allowJs": true,
     "allowSyntheticDefaultImports": true,
-    "esModuleInterop": true,
-    "moduleResolution": "node",
-    "sourceMap": true,
-    "target": "esnext",
-    "resolveJsonModule": true,
     // "paths": {
     //   "@v1/*": [ "./server/api/v1/*" ],
     // },
-    "baseUrl": "."
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "outDir": "public",
+    "resolveJsonModule": true,
+    "sourceMap": false,
+    "target": "ES2022"
   },
+  "exclude": [
+    "./**/*.js",
+    "build",
+    "coverage",
+    "dist",
+    "index.ts",
+    "node_modules",
+    "server.ts",
+    "test",
+    "tests"
+    // "./client/*config.*",
+    // "./server/*config.*",
+  ],
+  "include": [
+    "./**/*.ts",
+    "public/*.*"
+  ],
   "ts-node": {
     "compilerOptions": {
       "module": "CommonJS"
     }
-  },
-  "exclude": [
-    // "./client/*config.*",
-    // "./server/*config.*",
-    "./**/*.js",
-    "build",
-    "coverage",
-    "node_modules",
-    "test",
-    "tests"
-  ]
+  }
 }
